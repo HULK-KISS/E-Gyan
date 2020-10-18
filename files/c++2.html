@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>C++ 2</title>
     <!-- <link rel="stylesheet" href="leftsidebar.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -15,13 +15,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body {
-  background-image: url('picture/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
-  
-}
+
 
 
 
@@ -36,9 +30,9 @@ body {
 {
     height: 70px;
     width: 100%;
-    
+   
     background: linear-gradient(to right,lightgreen,green);
-       
+    
     display: flex;
     position: fixed;
     justify-content: center;
@@ -263,7 +257,7 @@ i
 .footer
 {
     position: sticky;
-    top: 300px;       
+    top: 4000px;       
 
 }
 .content
@@ -464,38 +458,39 @@ i
              width: 100%;
          }
 
+         
 
-.content1 h1
-{
+         
 
-    position: fixed;
-    top: 200px;
-    color: aliceblue;
-    left: 350px;
-    font-size: 35px;
-    background-color: linear-gradient(to right,rgba(128, 255, 170,0.7), rgba(0, 255, 85,0.7));
-}
+         .Clist li
+         {
+             color:rgb(153, 0, 255) ;
+         }
+
+         .Ccontent
+         {
+            position: relative;
+            top: 80px;
+            left: 100px;
+            width: 60%; 
+         }
+        
+
+        .Ccontent h3 
+        {  
+   
+            color: rgb(153, 0, 255); 
+  
+        } 
+
+        table, th, td {  
+            padding: 10px 10px;
+  border: 2px solid black;  
+  border-collapse: collapse;  
+} 
 
 
-.button a
-{
-    position: fixed;
-    top: 300px;
-    left: 600px;
-    border-radius: 10px;
-    background: linear-gradient(to right,white,green);
-    padding: 10px 10px;
-
-}
-
-input[type='text']
-{
-    position: relative;
-    width: 250px;
-    left: 520px;
-    padding: 10px 10px;
-}
-
+   
     </style>
 
 
@@ -504,8 +499,8 @@ input[type='text']
  
  <div class="container">   
     <div class="header">
+        <img src="picture/full stack.png" alt="">
         <h1>Study <sub>Point</sub></h1>
-        <input type="text" placeholder="Search here">
     </div>
      
     <input type="checkbox" id="chk">
@@ -518,7 +513,7 @@ input[type='text']
     </label>
     <div class="sidebar">
         <ul>
-            <li><a href="#"><i class="fa fa-home"><span>home</span></i></a></li>
+            <li><a href="https://vikasyadav18.github.io/miniProject/index.html"><i class="fa fa-home"><span>home</span></i></a></li>
             <li><a href="#"><i class="fa fa-user"><span>About</span></i></a></li>
             <li><a href="#"><i class="fa fa-tasks"><span>services</span></i></a></li>
             <li><a href="#"><i class="fa fa-rss"><span>Blog</span></i></a></li>
@@ -534,31 +529,94 @@ input[type='text']
     <!-- right Side -->
     <div class="rightbar">
         <ul>
-            <li><a href="https://vikasyadav18.github.io/miniProject/files/Cintro.html"><i class="fa fa-tasks"><span>C-Introduction</span></i></a></li>
-            <li><a href="https://vikasyadav18.github.io/miniProject/files/C.html"><i class="fa fa-tasks"><span>C-programming</span></i></a></li>
-            <li><a href="https://vikasyadav18.github.io/miniProject/files/python1.html"><i class="fa fa-tasks"><span>1-Python</span></i></a></li>
-            <li><a href="https://vikasyadav18.github.io/miniProject/files/python2.html"><i class="fa fa-tasks"><span>2-Python</span></i></a></li>
             <li><a href="https://vikasyadav18.github.io/miniProject/files/c++1.html"><i class="fa fa-tasks"><span>Learn C++</span></i></a></li>
             <li><a href="https://vikasyadav18.github.io/miniProject/files/c++2.html"><i class="fa fa-tasks"><span>Application and classes of C++</span></i></a></li>
-            <li><a href="#"><i class="fa fa-tasks"><span>Learn HTML</span></i></a></li>
-            <li><a href="#"><i class="fa fa-tasks"><span>Learn Java</span></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"><span>More</span></i></a></li>
+           <li><a href="https://vikasyadav18.github.io/miniProject/index.html"><i class="fa fa-rss"><span>More</span></i></a></li>
         </ul>
       
     </div>
     <br>
-    <div class="content1">
-
-     <h1>   Welcome to E-Learning <span><sub>let's study</sub></span></h1>        
-    </div>
-
-    <div class="button">
-        <a href="https://vikasyadav18.github.io/miniProject/files/signIn.html"><sub>let's</sub>JOIN</a>
-    </div>
+    
+<!-- content of C intro programming -->
 
 
+<div style="text-align:justify" class="Ccontent">
+
+<h1>C++ Classes</h1>
+    <h3>
+        <ul class="Clist">
+            <li> C++ OOP</li>
+            <li> C++ Classes/Objects</li>
+            <li> C++ Class Methods</li>
+            <li> C++ Constructors</li>
+            <li> C++ Access Specifiers</li>
+            <li> C++ Encapsulation</li>
+            <li> C++ Inheritance</li>
+            <li> C++ Polymorphism</li>
+            <li> C++ Files</li>
+            <li> C++ Exceptions</li>
+        </ul>
+    </h3>
+<h1>Applications of C++</h1>
+<h3>
+Using C++, you can develop system software like OS, Device Drivers, Network(N/W) protocols, PC – utilities.<br>
+Application software you can develop application like:<br><br>
+    <ul  class="Clist">
+        <li> Database</li>
+        <li> Word processing</li>
+        <li> Spreadsheets</li>
+        <li> C++ is a general purpose programming language better than ‘c’.</li>
+        <li> General purpose means it is suitable for developing any software.</li>
+        <li> CUI means a character user interface.</li>
+    </ul>
+</h3>
+
+<h1>Advantages of C++</h1>
+<h3>
+    <ul class="Clist">
+        <li> Object oriented</li>
+        <li> Portable language (writing a program irrespective of operating system as well as Hardware)</li>
+        <li> Low-level language like Assembly language on Machine language called portable.</li>
+        <li> C++ use multi-paradigm programming. The Paradigm means the style of programming .paradigm concerned about logics, structure, and procedure of the program. C++ is multi-paradigm means it follows three paradigm Generic, Imperative, Object Oriented.<</li>
+        <li> It is useful for the low-level programming language and very efficient for general purpose.</li>
+        <li> C++ provide performance and memory efficiency.</li>
+        <li> It provides a high-level abstraction.</li>
+        <li> In the language of the problem domain.</li>
+        <li> C++ is compatible with  C.</li>
+        <li> C++ used reusability of code.</li>
+        <li> C++ used inheritance, polymorphism.</li>
+    </ul>
+</h3>
+<h1>Disadvantages of C++</h1>
+<h3>
+    <ul class="Clist">
+        <li> It has no security</li>
+        <li> Complex in a very large high-level program.</li>
+        <li> Used for platform specific application commonly.</li>
+        <li> For a particular operating system or platform, the library set has usually chosen that locks.</li>
+        <li> When C++ used for web applications complex and difficult to debug.</li>
+        <li> C++ can't support garbage collection.</li>
+        <li> C++ is not secure because it has a pointer, friend function, and global variable.</li>
+        <li> No support for threads built in.</li>
+    <ul>
+</h3>
+<h1>MAIN FEATURES OF C++</h1>
+<h3>
+There are various features of C++ such as:<br><br>
+    <ul class="Clist">
+        <li> Object Oriented.</li>
+        <li> Simple.</li>
+        <li> Platform Dependent.</li>
+        <li> Mid-level programming language.</li>
+        <li> Structured programming language.</li>
+        <li> Rich Library.</li>
+        <li> Memory Management.</li>
+        <li> Powerful & Fast</li>
+     </ul>
+</h3>        
 </div>
 
+<!-- content of C intro programming -->
 
 
 <!-- footer -->
